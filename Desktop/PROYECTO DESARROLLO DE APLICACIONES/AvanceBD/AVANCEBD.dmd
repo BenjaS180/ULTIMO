@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AVANCEBD" id="9FA51A04-813D-ED3C-2273-6B2F177EF338" version="3.5">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:13:00 UTC</createdTime>
+<ownerDesignName>porfavor</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9FA51A04-813D-ED3C-2273-6B2F177EF338</designId>
+</OSDM_Design>

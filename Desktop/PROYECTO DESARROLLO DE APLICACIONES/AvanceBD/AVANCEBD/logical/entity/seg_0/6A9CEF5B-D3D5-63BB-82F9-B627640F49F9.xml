@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A9CEF5B-D3D5-63BB-82F9-B627640F49F9" name="bodega">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:23:30 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_bodega" id="9E8D7879-6C54-0BAB-6468-4D5469969BC7">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:23:41 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="438E8FEC-CCD2-B556-6C7A-8CCC8DF35E7E">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:25:54 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="CF4E4A6F-938C-20BF-3C9C-6A545FCFD50A">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:26:15 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jefe_asignado" id="E000BB96-CB39-9787-04CD-B0FCF5C54803">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:27:47 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad" id="62F3BAF6-5537-71DC-8A2E-CB43FED59E7D">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:27:21 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NivelDeOcupacion" id="2FB6DC05-EB7E-4E58-F858-9A319FE5F76C">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:28:20 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CorreoBodegas" id="31582298-F879-F1FA-97D9-F3B697BCFA9D">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:30:46 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumeroFijo" id="4E1D0002-7A32-4C36-6A17-83E4DC2ED201">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:31:44 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9AF97E2-7B1D-F084-E714-64F795E2C225" name="bodega PK">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:23:52 UTC</createdTime>
+<ownerDesignName>AVANCEBD</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E8D7879-6C54-0BAB-6468-4D5469969BC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
