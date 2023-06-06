@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AF16DBE-68B7-BAF4-762A-DF1F9A714325" name="MovimientoDeBodega">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>B9D8CB63-1FAE-190C-6E38-60FA7D0B8AC5</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_movimiento" id="B0728891-D8D7-273B-4183-2220B24BE7A7">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>439726A0-9AAE-477B-4E33-E2AE215F80EB</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="6F93530E-F09E-FF7C-1FD5-51291065EF91">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>003D39A9-4690-D9B5-B4AD-82F9B8117E8F</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_bodega_origen" id="B6DE9F2A-A675-F877-0D2B-A9546EA9A042">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>ED2F4CC5-D841-1018-CC6F-B28AB1AA815F</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_bodega_destino" id="E87B3C4B-AC41-AE21-AA02-354014CEF4AF">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>B3BE3CD6-2CE2-662A-F718-4EBDA2381340</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_colaborador" id="524588EE-BDD7-716E-B5AF-2666BCE0338E">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>A9ABDC19-BF96-F6B9-C3D1-E2E1E1BC02A3</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bodega_ID_bodega" id="D122C3FE-76BB-C76F-5C9B-AB4E3C6E9704">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>567E46C2-4E20-859E-C02B-9B9115BC8041</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC6837B9-F41C-D63E-F3B2-B064F5E3A24C" referredColumn="ABD10514-6F62-1B63-0CCC-B9C556AB9CD6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4714E79-7781-4612-C67A-8CBACB86EDF6" name="MovimientoDeBodega_PK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>6EA69534-8D50-9555-A1DD-E1D43DA77A7D</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0728891-D8D7-273B-4183-2220B24BE7A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DFC053B-8EF5-A3F3-B0BD-9EEA0966D0EF" name="MovimientoDeBodega_bodega_FK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>0E4D5078-140E-6826-8C99-6DF5D7D313F9</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D122C3FE-76BB-C76F-5C9B-AB4E3C6E9704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

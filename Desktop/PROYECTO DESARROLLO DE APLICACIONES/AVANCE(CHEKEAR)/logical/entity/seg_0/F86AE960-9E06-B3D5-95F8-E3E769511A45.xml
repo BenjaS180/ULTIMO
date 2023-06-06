@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F86AE960-9E06-B3D5-95F8-E3E769511A45" name="productos">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:50:10 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Producto" id="2804D557-5BFB-A028-09B1-DC72A10E1495">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:50:27 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoProducto" id="90EC6B87-4E4C-D93D-7834-719B122CA7E2">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:51:03 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidades" id="18833224-1C58-AF3C-7116-333E82D8FE46">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:51:46 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74F7F7AC-778C-C69B-6DCF-A8BBCBEFCD38" name="Productos PK">
+<createdBy>alumnosnunoa</createdBy>
+<createdTime>2023-06-05 21:50:55 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<engineerTo>
+<item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2804D557-5BFB-A028-09B1-DC72A10E1495</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F32BBD0C-817B-38AB-E671-793BE838AFE4" name="colaborador">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>4C086E89-8FB1-BE54-DB7C-3299AEA6527C</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_colaborador" id="0574025C-0ABA-33A1-6594-CEFAE8A8D6C5">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>79FC464E-4D0A-612D-52EC-B9B4339B89C3</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargo" id="48BCB665-0D54-FD49-053B-0378EA599D12">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>EFB4FC78-C3F9-C8B2-3EEE-91B551B1250B</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Accesos" id="60E3FC04-7677-7FB9-AD34-8AA54035D71D">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>7CFBB0B4-C14C-9AFE-E7B6-FA4A7DB2561C</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bodega_ID_bodega" id="5DF0D17F-F2E7-E1DF-5C4A-9D7D35439F00">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>6339A60A-E4AD-10EC-FEB7-3E04A3C6E468</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC33F56F-4945-3F44-B6F7-0D69C864BB16" referredColumn="ABD10514-6F62-1B63-0CCC-B9C556AB9CD6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83CECC99-2F4B-3607-92C6-C4C9D2B302B1" name="colaborador_PK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>38C5FFBC-9652-9AD2-254E-F36347341265</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0574025C-0ABA-33A1-6594-CEFAE8A8D6C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C64E2387-346F-94D8-49FD-9EF89BE7C35E" name="colaborador_bodega_FK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>341B6E8F-3F7A-C220-0540-3FDF7887A49B</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DF0D17F-F2E7-E1DF-5C4A-9D7D35439F00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B84FADE-DCBC-2DA4-59E7-F8DFA29BDEA0" name="Productoautor">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>8136C8D1-9A05-BE01-EEB1-2010DD1C132D</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_productoautor" id="79C0191C-FAF5-8189-56E8-BABAD1A1BD45">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>F70533C2-0C08-5D49-91C8-20DD96EDC42F</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_producto" id="8218473D-F03B-5DB1-F218-3BD49EA46CF3">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>0D3ABE06-ABEE-93C3-8904-0EC70E0360A4</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_autor" id="E2149197-0987-EB5B-E8B1-7F88664A6A72">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>ABAFBAFF-E637-3E61-49F1-1E098F283C84</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C42B19A-0BB6-D31B-FC7E-D7CA192B943B" name="Productoautor_PK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>1A4BF46E-1FD7-6EA6-E706-A27C6FB1B3E8</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79C0191C-FAF5-8189-56E8-BABAD1A1BD45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

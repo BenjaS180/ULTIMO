@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4BD165B-EE0B-AD2E-64F8-60DA1C2AC29A" containerWithKeyObject="20B1B07B-EC7A-F97B-D237-99EDDF06FE93" localFKIndex="57E5AB92-CEB1-8351-56A7-94049FF8F253" name="Relation_11_Productoautor_FK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>7E6EA24B-6E2D-C763-1CDF-BCC46A7AC577</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<referredTableLongName>Productoautor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B84FADE-DCBC-2DA4-59E7-F8DFA29BDEA0</referredTableID>
+<keyObject>0C42B19A-0BB6-D31B-FC7E-D7CA192B943B</keyObject>
+<referredKeyID>0C42B19A-0BB6-D31B-FC7E-D7CA192B943B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_productoautor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

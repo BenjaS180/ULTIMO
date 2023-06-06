@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD155F25-5D27-8278-D2A8-277E912A42DC" name="bodega">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>6A9CEF5B-D3D5-63BB-82F9-B627640F49F9</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_bodega" id="ABD10514-6F62-1B63-0CCC-B9C556AB9CD6">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>9E8D7879-6C54-0BAB-6468-4D5469969BC7</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1AE21620-37C1-8B84-61AA-CC5B1BA2AF9E">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>438E8FEC-CCD2-B556-6C7A-8CCC8DF35E7E</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="07BD3FA1-D6F6-4D75-B335-F68A8A1D3CFE">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>CF4E4A6F-938C-20BF-3C9C-6A545FCFD50A</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jefe_asignado" id="CA93AFBD-2B47-8FFE-175D-6CF33B082F9E">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>E000BB96-CB39-9787-04CD-B0FCF5C54803</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="EEFC3B3E-3116-E8D3-CE1E-D71C00CB88F4">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>62F3BAF6-5537-71DC-8A2E-CB43FED59E7D</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NivelDeOcupacion" id="CBB39EE5-16CE-AFD2-5B90-D0DA1C94D61F">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>2FB6DC05-EB7E-4E58-F858-9A319FE5F76C</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CorreoBodegas" id="91A4ACB3-2A2F-EDE2-BE4E-42D3803BE3DA">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>31582298-F879-F1FA-97D9-F3B697BCFA9D</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroFijo" id="D2C65DD4-1DF3-07F8-E209-C15086E42C5C">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>4E1D0002-7A32-4C36-6A17-83E4DC2ED201</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C00E2A9-0065-509C-2B43-5364198B6ABD" name="bodega_PK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>D9AF97E2-7B1D-F084-E714-64F795E2C225</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD10514-6F62-1B63-0CCC-B9C556AB9CD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

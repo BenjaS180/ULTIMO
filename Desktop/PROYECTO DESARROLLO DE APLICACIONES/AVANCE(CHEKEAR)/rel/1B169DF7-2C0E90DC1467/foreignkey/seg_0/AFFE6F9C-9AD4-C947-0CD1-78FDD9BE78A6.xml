@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFFE6F9C-9AD4-C947-0CD1-78FDD9BE78A6" containerWithKeyObject="709B2AF1-483E-A2FB-F0B3-AF4751BFC64D" localFKIndex="D40BAA8C-BCE0-19F1-AA5B-4E45F4BA502F" name="Relation_10_Editoriales_FK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>0EF6AD97-E9F6-FC0B-0FE8-F35A6E4787D9</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<referredTableLongName>Editoriales</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>42A9B077-F307-48C5-3C3E-83A4B52802F6</referredTableID>
+<keyObject>C8103DF2-8D44-B1F7-4797-744DFFD3A92D</keyObject>
+<referredKeyID>C8103DF2-8D44-B1F7-4797-744DFFD3A92D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_EDITORIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="709B2AF1-483E-A2FB-F0B3-AF4751BFC64D" name="Relation_10">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="productos_ID_Producto" id="8C613E7D-3045-D0B4-EFA7-17FD4A768ACF">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3448E83A-2DF6-7416-20BA-51F4E0324292" referredColumn="9858B50A-0DD7-5ACA-0351-C50A98D0248E"/>
+</associations>
+</Column>
+<Column name="Editoriales_ID_EDITORIAL" id="5C0E98CE-7D5F-7ACE-C6D5-1DBB5E5DF387">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFE6F9C-9AD4-C947-0CD1-78FDD9BE78A6" referredColumn="1CC133CC-3A7B-37F4-182B-669C9B331889"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A03F1CF0-2D78-2B4F-DD5F-119F7A1C7EF4" name="Relation_10_PK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C613E7D-3045-D0B4-EFA7-17FD4A768ACF"/>
+<colUsage columnID="5C0E98CE-7D5F-7ACE-C6D5-1DBB5E5DF387"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78AF6CF0-2D1B-8A1E-203E-8351558E1810" name="Relation_10_productos_FK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>0EF6AD97-E9F6-FC0B-0FE8-F35A6E4787D9</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C613E7D-3045-D0B4-EFA7-17FD4A768ACF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D40BAA8C-BCE0-19F1-AA5B-4E45F4BA502F" name="Relation_10_Editoriales_FK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>0EF6AD97-E9F6-FC0B-0FE8-F35A6E4787D9</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C0E98CE-7D5F-7ACE-C6D5-1DBB5E5DF387"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

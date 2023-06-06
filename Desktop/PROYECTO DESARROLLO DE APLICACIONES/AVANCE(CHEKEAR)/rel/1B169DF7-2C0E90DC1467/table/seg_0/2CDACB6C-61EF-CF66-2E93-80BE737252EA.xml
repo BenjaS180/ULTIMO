@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CDACB6C-61EF-CF66-2E93-80BE737252EA" name="Relation_12">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Editoriales_ID_EDITORIAL" id="4F339A60-4C63-6F5C-8B02-8B95CEB06F3C">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCEF0F9F-A0F1-1609-BE86-8EBA26168C00" referredColumn="1CC133CC-3A7B-37F4-182B-669C9B331889"/>
+</associations>
+</Column>
+<Column name="Autor_ID_AUTOR" id="5E5F8239-90DD-8477-043A-99F2EC1D0F8F">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A52F5AA0-7366-D3D9-21FE-B56DC4E81E35" referredColumn="DC7EE448-F415-A924-4CBC-D5F9F7297C04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="980F0854-0621-2885-5E14-D6E2575CF5CE" name="Relation_12_PK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F339A60-4C63-6F5C-8B02-8B95CEB06F3C"/>
+<colUsage columnID="5E5F8239-90DD-8477-043A-99F2EC1D0F8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48BB97EE-59E3-77D7-75D6-213E3D687103" name="Relation_12_Editoriales_FK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>528AE901-B667-7BE6-98EE-CC805246C818</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F339A60-4C63-6F5C-8B02-8B95CEB06F3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9D980D2-A3D8-D979-8BFE-E67F9BC9D40E" name="Relation_12_Autor_FK">
+<createdBy>Benjamin</createdBy>
+<createdTime>2023-06-06 00:45:56 UTC</createdTime>
+<generatorID>528AE901-B667-7BE6-98EE-CC805246C818</generatorID>
+<ownerDesignName>AVANCE(CHEKEAR)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E5F8239-90DD-8477-043A-99F2EC1D0F8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
