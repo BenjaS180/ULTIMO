@@ -89,8 +89,11 @@
 <item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="22B5B18F-1368-7112-E394-0FC3147297D9">
 <createdBy>alumnosnunoa</createdBy>

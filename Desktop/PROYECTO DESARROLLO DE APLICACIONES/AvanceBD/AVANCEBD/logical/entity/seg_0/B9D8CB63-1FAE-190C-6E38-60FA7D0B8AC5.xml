@@ -36,7 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_bodega_origen" id="ED2F4CC5-D841-1018-CC6F-B28AB1AA815F">
@@ -70,7 +70,9 @@
 <engineerTo>
 <item key="1B169DF7-0F8A-BA50-5A43-2C0E90DC1467" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_bodega" id="567E46C2-4E20-859E-C02B-9B9115BC8041">
